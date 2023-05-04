@@ -1,0 +1,226 @@
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+    --body-text-color: #434455;
+    --headings-color: #2E2F42;
+    --header-bg-color: #FFFFFF;
+    --accent-color: #F4F4FD;
+    --active-state-color: #4D5AE5;
+    --btn-hover-color: #404BBF;
+}
+
+body {
+    font-family:  var(--main-font-family);
+    background: var(--bg-color);
+    color: var(--body-text-color);
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+.logo {
+    color: var(--active-state-color);
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.span-logo {
+    color: var(--headings-color);
+}
+
+.span-footer-logo {
+    color: var(--accent-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--headings-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--btn-hover-color);
+}
+
+.address {
+    font-style: normal;
+}
+.contact-info {
+    color: var(--body-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+    color: var(--btn-hover-color);
+}
+
+/* hero */
+.hero {
+    background: var(--headings-color);
+}
+
+.solution {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--header-bg-color);
+}
+.order-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    background: var(--active-state-color);
+    color: var(--header-bg-color);
+    cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    background: var(--btn-hover-color);
+}
+
+/* features */
+.features-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headings-color);
+}
+.features-list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--headings-color);
+}
+
+.features-list-item-descr {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* overview */
+.overview-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headings-color);
+}
+
+/* team */
+.team {
+    background: var(--accent-color);
+}
+
+.team-card {
+    background: var(--bg-color);
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headings-color);
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--headings-color);
+}
+
+.card-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/* portfolio */
+
+/* filter buttons */
+.filter-btn {
+    font-family: inherit;
+    cursor: pointer;
+    background: var(--accent-color);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--active-state-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background: var(--btn-hover-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--header-bg-color);
+}
+
+/* filter result(project-cards)*/
+.project-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--headings-color);
+}
+
+.project-card-descr {
+    color: var(--body-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* footer */
+.footer {
+    background: var(--headings-color);
+}
+
+.footer-advise {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
