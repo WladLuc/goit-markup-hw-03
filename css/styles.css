@@ -293,7 +293,8 @@ img {
   flex-direction: column;
   align-items: center;
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent-color);
+  border-top: none;
 }
 
 /* list-item-title (text)*/
