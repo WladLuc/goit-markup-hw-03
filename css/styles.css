@@ -62,9 +62,6 @@ img {
   padding-right: 15px;
 }
 
-.container {
-  
-}
 .page-navigation {
   display: flex;
   flex-direction: row;
@@ -93,6 +90,7 @@ img {
   flex-direction: row;
   gap: 40px;
   width: 261px;
+  padding: 24px 0px;
 }
 
 .menu-link {
@@ -114,6 +112,7 @@ img {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  padding: 24px 0px;
 }
 
 .contact-mail,
